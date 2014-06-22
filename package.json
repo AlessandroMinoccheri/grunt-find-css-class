@@ -1,0 +1,37 @@
+{
+  "name": "grunt-find-css-class",
+  "description": "Find class inside your files",
+  "version": "0.0.1",
+  "homepage": "https://github.com/AlessandroMinoccheri/grunt-find-css-class",
+  "author": {
+    "name": "AlessandroMinoccheri",
+    "url": "https://github.com/AlessandroMinoccheri"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AlessandroMinoccheri/grunt-find-css-class.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlessandroMinoccheri/grunt-find-css-class/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/AlessandroMinoccheri/grunt-find-css-class/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "css",
+    "class",
+    "find"
+  ]
+}
