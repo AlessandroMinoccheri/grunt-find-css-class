@@ -10,7 +10,6 @@
 
 module.exports = function(grunt) {
 
-  // Project configuration.
   grunt.initConfig({
     jshint: {
       all: [
@@ -23,7 +22,6 @@ module.exports = function(grunt) {
       }
     },
 
-    // Configuration to be run (and then tested).
     findClass: {
       options: {
         css_class: 'clear',

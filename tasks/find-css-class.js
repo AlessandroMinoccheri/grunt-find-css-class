@@ -7,7 +7,6 @@ module.exports = function(grunt) {
 	  return (str + '').replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
 	};
 
-
 	function getDirectoryFiles(directory, callback) {
 	    fs.readdir(directory, function(err, files) {
 	        files.forEach(function(file){
@@ -55,9 +54,7 @@ module.exports = function(grunt) {
 					    return console.log(err);
 
 					var class_to_find = css_class;
-					
 					var reg = new RegExp("(<\\w+?\\s+?class\\s*=\\s*['\"][^'\"]*?\\b)" + class_to_find + "\\b", "i");
-
 					var found = data.match(reg);
 					
 					if((found != '') && (found != null))
