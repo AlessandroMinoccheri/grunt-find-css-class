@@ -23,7 +23,6 @@ module.exports = function(grunt) {
 	    });
 	}
 
-	//module.exports = function (css_class, name, cb) {
 	grunt.registerMultiTask('find-css-class', 'Find class into files.', function() {
 		var options = this.options({
             css_class: '',
